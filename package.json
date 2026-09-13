@@ -1,0 +1,30 @@
+{
+  "name": "gamerank-game-info-site",
+  "version": "1.0.0",
+  "description": "游戏资讯排行榜站 - 纯前端项目 (原生HTML+CSS+JS)",
+  "type": "commonjs",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js",
+    "start": "npx vite --host 0.0.0.0 --port 5173",
+    "dev": "npx vite --host 0.0.0.0 --port 5173 --open",
+    "build": "npm run fetch && npx vite build",
+    "preview": "npx vite preview --host 0.0.0.0 --port 4173",
+    "serve": "npx serve dist -l 4173"
+  },
+  "keywords": [
+    "game",
+    "rank",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "vite",
+    "gamerank"
+  ],
+  "author": "GameRank Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "serve": "^14.2.1"
+  }
+}
